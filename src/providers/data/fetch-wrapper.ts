@@ -42,4 +42,6 @@ const getGraphQLErrors = (body: Record<"errors", GraphQLFormattedError[] | undef
                 statusCode: code || 500;
             }
         }
+
+        return null;
 }
